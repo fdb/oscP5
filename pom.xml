@@ -8,19 +8,8 @@
     <packaging>jar</packaging>
 
     <name>oscP5</name>
+    <description>An implementation of the OSC protocol for Processing</description>
     <url>http://www.sojamo.de/libraries/oscP5/</url>
-
-    <dependencies>
-    </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>clojars</id>
-            <name>Clojars repository</name>
-            <url>https://clojars.org/repo</url>
-        </repository>
-    </distributionManagement>
-
 
     <build>
         <sourceDirectory>src</sourceDirectory>
@@ -29,4 +18,19 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>clojars</id>
+            <url>https://clojars.org/repo/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </distributionManagement>
 </project>
