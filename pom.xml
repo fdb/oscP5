@@ -12,6 +12,13 @@
     <description>An implementation of the OSC protocol for Processing</description>
     <url>http://www.sojamo.de/libraries/oscP5/</url>
 
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License</name>
+            <url>https://www.gnu.org/licenses/lgpl.html</url>
+        </license>
+    </licenses>
+
     <build>
         <sourceDirectory>src</sourceDirectory>
     </build>
